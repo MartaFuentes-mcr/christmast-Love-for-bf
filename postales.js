@@ -16,7 +16,7 @@ const postales = [
   {
     id: 3,
     title: "Level 3: Asset Acquired",
-    message: "Si yo fuera un asset pack, hoy te regalaría:<br>– Un abrazo envuelto en luces de navidad<br>– Fe inquebrantable en tus sueños<br>– Y un corazón que late al ritmo de tus teclas.<br><br>Feliz Adviento, mi creador de realidades.",
+    message: "Si yo fuera un asset pack, hoy te regalaría:<br>– Un abrazo envuelto en luces de navidad<br>– Fe inquebrantable en tus sueños<br>– Y un corazón que late al ritmo de tus teclas.<br><br>Feliz Navidad,al hombre de mi vida .",
     icon: "💎",
     song: "https://incompetech.com/music/royalty-free/mp3-royaltyfree/We%20Wish%20You%20a%20Merry%20Christmas.mp3"
   },
