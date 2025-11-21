@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I ❤️ You</title>
+  <!-- Fuentes: Pixel para lo Gamer, Cursiva para lo Romántico -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Press+Start+2P&family=Outfit:wght@300;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Fondo de partículas/corazones -->
+  <div id="snow-container"></div>
+
+  <!-- Overlay para oscurecer un poco el fondo -->
+  <div class="overlay"></div>
+
+  <main class="container">
+    <header class="header">
+      <h1 class="main-title">Player 1 <span class="heart">❤️</span> Player 2</h1>
+      <p class="subtitle">24 Levels of Love</p>
+
+      <!-- XP Bar -->
+      <div class="xp-container">
+        <div class="xp-label">Love Progress</div>
+        <div class="xp-bar-bg">
+          <div id="xp-bar-fill" class="xp-bar-fill" style="width: 0%;"></div>
+        </div>
+        <div id="xp-text" class="xp-text">0 / 24 XP</div>
+      </div>
+
+      <!-- Cuenta Regresiva -->
+      <div id="countdown-container">
+        <p class="countdown-label">Time until Christmas:</p>
+        <div id="countdown" class="countdown-timer">
+          <div class="time-unit"><span id="days">00</span><small>Days</small></div>
+          <div class="time-unit"><span id="hours">00</span><small>Hours</small></div>
+          <div class="time-unit"><span id="minutes">00</span><small>Mins</small></div>
+          <div class="time-unit"><span id="seconds">00</span><small>Secs</small></div>
+        </div>
+      </div>
+
+    </header>
+
+    <div class="calendar-grid" id="calendar-grid">
+      <!-- Los días se generarán con JS -->
+    </div>
+  </main>
+
+  <!-- Modal / Quest Log -->
+  <div id="modal" class="modal">
+    <div class="modal-content glass-panel">
+      <span class="close-btn">&times;</span>
+      <div class="modal-header">
+        <h2 id="modal-title">Level X</h2>
+      </div>
+      <div class="modal-body">
+        <p id="modal-message">Loading...</p>
+
+        <!-- Reproductor de música -->
+        <div class="audio-player-container" id="audio-container" style="display: none;">
+          <audio id="bg-music" controls>
+            <source src="" type="audio/mpeg">
+            Tu navegador no soporta audio.
+          </audio>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button class="action-btn" id="close-modal-btn">Close Log</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grand Finale Screen -->
+  <div id="finale-screen" class="finale-screen hidden">
+    <canvas id="fireworks-canvas"></canvas>
+    <div class="finale-content">
+      <h1 class="finale-title">¡Feliz Navidad!</h1>
+      <p class="finale-message">Eres lo mejor que me ha pasado ❤️</p>
+
+      <!-- Audio player for finale music -->
+      <div class="finale-audio-container">
+        <audio id="finale-music" controls>
+          <source src="" type="audio/mpeg">
+          Tu navegador no soporta audio.
+        </audio>
+      </div>
+
+      <button id="replay-btn" class="action-btn">Volver al Calendario</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="postales.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
