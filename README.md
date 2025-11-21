@@ -1,35 +1,32 @@
-# 🎄 24 Levels of Love
+# 🎄🦌 24 Levels of Love ❄️❤️
 
-> *“Player 1 ❤️ Player 2” – Porque el amor también se juega en niveles.*
+> *“Player 1 ❤️ Player 2” — donde el amor se juega en modo Adviento.*
 
-Un pequeño homenaje digital navideño para celebrar el amor con quien comparte tu pasión por el código, los píxeles… y las navidades mágicas.
+✨❄️ Un regalo digital, día a día, para quien transforma líneas de código en mundos reales… y mi mundo en algo mágico.  
 
-![Love Progress](https://img.shields.io/badge/XP-0%20/%2024-red?style=for-the-badge&logo=heart&logoColor=white)
+Este es un pequeño **Adviento gamificado**: 24 niveles, 24 razones para decirte que te quiero, contados como si fuéramos personajes en una historia de pixel art y copos de nieve. 🌨️🎮
 
----
-
-## 💡 ¿Qué es esto?
-
-**24 Levels of Love** es una página web interactiva inspirada en el espíritu navideño y la cultura *game dev*.  
-Cada día de diciembre representa un nuevo “nivel” de amor, culminando en la Navidad: el **Level 24**.
-
-Aunque actualmente muestra una cuenta regresiva simbólica, está diseñado para evolucionar con mensajes, recuerdos o pequeños desafíos diarios —como si fuera un *visual novel* navideño personalizado.
+![XP Progress](https://img.shields.io/badge/XP-0%20/%2024-FF6B6B?style=for-the-badge&logo=heart&logoColor=white)
+![Countdown](https://img.shields.io/badge/🎄_Christmas_Coming_Soon!-red?style=for-the-badge)
 
 ---
 
-## 🎮 Características
+### 🎁 ¿Qué encontrarás aquí?
 
-- ✨ Cuenta regresiva en tiempo real hasta Navidad  
-- 🎁 Progreso visual tipo *XP* (¡0/24 al inicio!)  
-- 💖 Estética romántica + gaming + navideña  
-- 🌐 Totalmente responsive y listo para compartir
+- 🕰️ **Cuenta regresiva en tiempo real** hasta Navidad  
+- 🎮 **Progreso tipo juego**: 0 / 24 XP (¡por ahora!)  
+- ❄️ **Estética navideña suave**: sin saturar, pero con alma invernal  
+- 💬 **Espacio para 24 mensajes secretos** (¡próximamente desbloqueables!)
+
+Ideal para compartir con esa persona especial… especialmente si su motor favorito es el de tu corazón. ❤️
 
 ---
 
-## 🛠️ Tecnologías usadas
+### 🧸 Tecnologías con aroma a galletas navideñas
 
-- HTML5  
-- CSS3 (con animaciones suaves y tipografía navideña)  
-- JavaScript (para la cuenta regresiva y gestión del progreso)
+- **HTML5** – La base de nuestro trineo 🛷  
+- **CSS3** – Con destellos de nieve y luces cálidas ✨  
+- **JavaScript** – El duende que cuenta los segundos hasta Navidad ⏳
 
-> *Hecho con ❤️ por [Marta Fuentes](https://github.com/MartaFuentes-mcr) — para alguien especial.*
+> 🎅 Hecho con amor por [Marta Fuentes](https://github.com/MartaFuentes-mcr)  
+> 🎁 *Para ti, mi beta tester favorito.*
